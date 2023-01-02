@@ -25,6 +25,7 @@ function registroPontos(pontuacao){
             piorJogo = i+1
         }
     }
+    
     return [vezesRecordeBatido, piorJogo]
 }
 
