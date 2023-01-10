@@ -82,4 +82,4 @@ function elaborarResultado(contador100, contador50, contador10, contador5, conta
     return resultado
 }
 
-console.log(menorNumeroCedulas(152))
+console.log(menorNumeroCedulas(167))
