@@ -17,10 +17,9 @@ const main = (params) => {
         count = 0
     }
     var SumPrimes = Primes.reduce(function (soma, i) {
-        return soma + i;
+        return soma + i
     });
-    SumPrimes++
-    return SumPrimes
+    return SumPrimes, console.log(SumPrimes)
 }
 
 main(1000)
