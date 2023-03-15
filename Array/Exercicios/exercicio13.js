@@ -7,4 +7,4 @@ function retornaNumber(array){
     return array.filter(item => typeof item === "number")
 }
 
-console.log(retornaNumber(['oi','oi',2,3,4,'oi','oi',1,true]))
+console.log(retornaNumber(['oi','oi',2,3,4,'oi','oi',true]))

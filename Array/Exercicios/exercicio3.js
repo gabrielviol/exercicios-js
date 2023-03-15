@@ -9,7 +9,7 @@
 
 function calcSalario(HorasTrabalhadas, ValorHora){
     let salario = HorasTrabalhadas * ValorHora
-    let liquido = salario-(salario * 0.3)
+    let liquido = salario-(salario *  0.3)
     console.log(liquido)
 }
 
